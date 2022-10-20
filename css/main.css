@@ -3618,10 +3618,7 @@ ul {
 }
 
 .navbar__page-link {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+
     width: auto;
     max-width: 100px;
     color: #4d4c4b;
@@ -3633,7 +3630,7 @@ ul {
 }
 
 .navbar__label {
-    display: inline-block;
+    display: flex;
     padding-top: 5px;
     padding-bottom: 5px;
     letter-spacing: .75px;
@@ -7696,6 +7693,19 @@ ul {
     grid-row-start: 4;
     -ms-grid-row-align: auto;
     align-self: auto
+}
+
+#w-node-e2b75fbe-633a-b68f-7a7d-345773b06c0f-73b06c05{
+    -ms-grid-column-span: 1;
+    grid-column-end: 1;
+    -ms-grid-column: 1;
+    grid-column-start: 0;
+    -ms-grid-row-span: 0;
+    grid-row-end: 2;
+    -ms-grid-row: 0;
+    grid-row-start: 0;
+    -ms-grid-column-align: start;
+  
 }
 
 #w-node-e2b75fbe-633a-b68f-7a7d-345773b06c0f-73b06c06 {
